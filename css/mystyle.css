@@ -1,6 +1,9 @@
 body{
   background-color:#00024e;
   color:#fff;
+  /* background-image:url("../images/pexels-pixabay-39284.jpg"); */
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 h1 {
   text-align: center;
@@ -52,3 +55,5 @@ input {
 .center {
   text-align: center;
 }
+
+
