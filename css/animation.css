@@ -1,7 +1,12 @@
+/* Adding variable in css */
+:root{
+    --mysize:100px;
+    --mycolor:red;
+}
 div{
-    width:100px;
+    width:var(--mysize);
     height:100px;
-    background-color:red; 
+    background-color:var(--mycolor); 
     box-shadow:-5px -5px 5px brown;
     margin:0 auto;
     /* animation:movearound; */
@@ -24,8 +29,10 @@ p{
     position:relative; 
 
 }
-
-
+h1{
+    color:red;
+    text-shadow: -7px -5px 4px red;
+}
 
 @keyframes movearound{
     from{
