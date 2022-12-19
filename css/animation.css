@@ -1,0 +1,123 @@
+div{
+    width:100px;
+    height:100px;
+    background-color:red; 
+    box-shadow:-5px -5px 5px brown;
+    margin:0 auto;
+    /* animation:movearound; */
+    /* animation-name:movearound;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease; */
+    /* animation:divweb 5s infinite;
+    position:relative; */
+}
+p{
+       /* background-color:red; */
+    /* animation:movearound; */
+    font-size:30px;
+    color:red;
+    animation:web 3s infinite;
+    /* animation-name:movesales;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease; */
+    position:relative; 
+
+}
+
+
+
+@keyframes movearound{
+    from{
+        left:0px;
+        top:0px;
+       
+}
+    to{
+        right:40px;
+        left:40px;
+        width:200px;
+    }
+}
+
+@keyframes movesales{
+    from{
+        left:0px;
+        left:0px;
+       
+}
+    to{
+        left:2px;
+        right:2px;
+        color:yellow;
+    }
+}
+
+@keyframes web{
+    0%{
+        left:0px;
+    }
+      10%{
+left:20px;
+    }
+      20%{
+left:40px;
+    }
+      50%{
+left:60px;
+    }
+      70%{
+left:40px;
+ color:blue;
+    }
+          80%{
+left:20px;
+ color:yellow;
+    }
+
+      100%{
+left:0px;
+ color:red;
+    }
+}
+
+@keyframes divweb{
+    0%{
+        top:0px;
+         left:20px;
+    }
+      10%{
+        top:0px;
+         left:40px;
+         background-color:green;
+    }
+      20%{
+        top:0px;
+         left:60px;
+           background-color:blue;
+    }
+      50%{
+        top:0px;
+         left:80px;
+    }
+      60%{
+
+        top:100px;
+         left:80px;
+    }
+          70%{
+            top:100px;
+            left:60px;
+              background-color:blue;
+    }
+            80%{
+            top:100px;
+            left:40px;
+              background-color:green;
+    }
+
+      100%{
+        top:100px;
+         left:20px;
+    }
+}
