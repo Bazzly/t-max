@@ -1,0 +1,28 @@
+body{
+    background-color:white;
+    color:white;
+}
+.container{
+
+    background-image:url('../images/fifa-world-cup.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    mix-blend-mode: darken;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+
+  background-color: #dddddd;
+}
+
+.inline{
+    display:inline;
+      padding: 8px;
+  background-color: #dddddd;
+}
