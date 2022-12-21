@@ -1,14 +1,16 @@
 /* Adding variable in css */
 :root{
-    --mysize:100px;
+    --mysize:200px;
     --mycolor:red;
 }
 div{
     width:var(--mysize);
+    position:relative;
     height:100px;
     background-color:var(--mycolor); 
-    box-shadow:-5px -5px 5px brown;
-    margin:0 auto;
+    /* box-shadow:-5px -5px 5px brown; */
+    /* margin:0 auto; */
+    animation:divweb 5s infinite;
     /* animation:movearound; */
     /* animation-name:movearound;
     animation-iteration-count:infinite;
@@ -31,7 +33,9 @@ p{
 }
 h1{
     color:red;
-    text-shadow: -7px -5px 4px red;
+    /* text-shadow: -7px -5px 4px red; */
+      position:relative;
+    animation:web 3s infinite;
 }
 
 @keyframes movearound{

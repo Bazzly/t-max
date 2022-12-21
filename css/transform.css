@@ -1,0 +1,24 @@
+:root{
+    --mycolor:red;
+    --mybg:brown;
+}
+div{
+    width:100px;
+    height:100px;
+  background-color:var(--mybg);
+  transition:all 1s;
+   /* transform:translate(15px,10px);
+     transform:rotate(0deg); */
+     /* transform:skew(20deg); */
+     transform:matrix(45deg,45deg,2,1,15,20);
+
+ 
+}
+div:hover{
+
+ background-color:var(--mycolor);
+cursor:pointer;
+color:white;
+  /* transform:scale(1,0.5); */
+  transform:rotate(360deg);
+}
